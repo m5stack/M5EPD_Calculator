@@ -7,7 +7,7 @@
 const char *kTitles[20] = {
     "AC", "(", ")", "<-",
     "7", "8", "9", "÷",
-    "4", "5", "6", "×",
+    "4", "5", "6", "x",
     "1", "2", "3", "-",
     ".", "0", "=", "+"};
 
@@ -252,7 +252,8 @@ void preProcess(String &exp)
 
 void setup()
 {
-    disableCore0WDT();
+    // disableCore0WDT();
+
     M5.begin();
     M5.TP.SetRotation(90);
     M5.EPD.SetRotation(90);
@@ -283,4 +284,7 @@ void setup()
 void loop()
 {
     EPDGUI_Run();
+    printf("??\n");
+    delay(2);
 }
+

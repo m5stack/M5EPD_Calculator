@@ -1,0 +1,3 @@
+[submodule "lib/M5EPD"]
+	path = lib/M5EPD
+	url = https://github.com/m5stack/M5EPD.git
