@@ -284,7 +284,5 @@ void setup()
 void loop()
 {
     EPDGUI_Run();
-    printf("??\n");
-    delay(2);
 }
 
