@@ -53,7 +53,7 @@ void EPDGUI_Run(void *pargs)
 
     while (1)
     {
-        if (M5.TP.avaliable())
+        if (M5.TP.available())
         {
             M5.TP.update();
             bool is_finger_up = M5.TP.isFingerUp();
